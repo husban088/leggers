@@ -767,16 +767,19 @@ html {
   .mens__heading {
     font-weight: 900;
     font-size: 4rem;
-    color: #000;
-    background-color: #f6f6f8;
-    padding: 5rem;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    display: inline-block;
+     box-decoration-break: clone;
+     background-image: linear-gradient(to right bottom, rgba(207, 0, 15, 0.85), rgba(0, 0, 0, 0.85));
     transition: all .3s;
     /* margin-left: -3rem; */
     margin-bottom: 2.5rem;
-    margin-top: -4rem;
     animation-name: moveinleft;
     animation-duration: 2s;
     animation-timing-function: ease-out;
+    border-radius: 10px;
   }
 
   @media only screen and (max-width: 500px) {
@@ -897,10 +900,14 @@ html {
   margin-bottom: 3rem;
   font-weight: 900;
   font-size: 4rem;
-  color: #000;
-  background-color: #f6f6f8;
-  padding: 5rem;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  -webkit-box-decoration-break: clone;
+  display: inline-block;
+   box-decoration-break: clone;
+   background-image: linear-gradient(to right bottom, rgba(207, 0, 15, 0.85), rgba(0, 0, 0, 0.85));
   transition: all .3s;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 500px) {

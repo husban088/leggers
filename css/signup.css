@@ -775,10 +775,13 @@ html {
   margin-bottom: 1rem;
   font-weight: 900;
   font-size: 3.7rem;
-  color: #000;
-  background-color: #f6f6f8;
-  padding: 5rem;
-  margin-top: -4rem;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  -webkit-box-decoration-break: clone;
+  display: inline-block;
+   box-decoration-break: clone;
+   background-image: linear-gradient(to right bottom, rgba(207, 0, 15, 0.85), rgba(0, 0, 0, 0.85));
+   border-radius: 10px;
   transition: all .3s;
 }
 

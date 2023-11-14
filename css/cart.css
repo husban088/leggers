@@ -2278,11 +2278,13 @@ html {
   margin-bottom: 3rem;
   font-weight: 900;
   font-size: 4rem;
-  color: #000;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  -webkit-box-decoration-break: clone;
   display: inline-block;
-  background-image: linear-gradient(to right, #979797, #383838);
-  -webkit-background-clip: text;
-  color: transparent;
+   box-decoration-break: clone;
+   background-image: linear-gradient(to right bottom, rgba(207, 0, 15, 0.85), rgba(0, 0, 0, 0.85));
+   border-radius: 10px;
   transition: all .3s;
 }
 

@@ -775,7 +775,7 @@ html {
   font-weight: 900;
   font-size: 4rem;
   color: #fff;
-  padding: 1rem 1.5rem;
+  padding: 1rem 3rem;
   -webkit-box-decoration-break: clone;
   display: inline-block;
    box-decoration-break: clone;
@@ -787,7 +787,17 @@ html {
 @media only screen and (max-width: 500px) {
   .contact__heading {
     font-size: 3rem;
-    padding: 4rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact__heading {
+    font-size: 2.5rem;
+    padding: 1rem 2.5rem;
+  }
+
+  .contact__top {
+    margin-top: 5rem !important;
   }
 }
 
@@ -800,29 +810,26 @@ html {
 @media only screen and (max-width: 450px) {
   .contact__heading {
     margin-top: -6rem;
-    padding: 3.7rem;
   }
 }
 
 @media only screen and (max-width: 330px) {
   .contact__heading {
     margin-top: -6.5rem;
-    padding: 3rem;
   }
 }
 
 @media only screen and (max-width: 316px) {
   .contact__heading {
     margin-top: -6.5rem;
-    padding: 2.8rem;
   }
 }
 
 @media only screen and (max-width: 312px) {
   .contact__heading {
     margin-top: -6.5rem;
-    padding: 2.8rem;
-    font-size: 2.7rem;
+    font-size: 2.5rem;
+    padding: 1rem 2.5rem;
   }
 }
 

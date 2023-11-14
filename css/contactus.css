@@ -935,7 +935,7 @@
     font-size: 4.5rem;
     transition: all .3s;
     color: #fff;
-    padding: 1rem 1.5rem;
+    padding: 1rem 2.5rem;
     -webkit-box-decoration-break: clone;
     display: inline-block;
      box-decoration-break: clone;
@@ -945,20 +945,12 @@
 
   @media only screen and (max-width: 400px) {
     .contact__heading {
-      font-size: 3.8rem;
-      padding: 4rem;
-    }
-  }
-
-  @media only screen and (max-width: 350px) {
-    .contact__heading {
-      padding: 3rem;
+      font-size: 3.2rem;
     }
   }
 
   @media only screen and (max-width: 340px) {
     .contact__heading {
-      padding: 3rem;
       margin-top: -4.5rem;
       margin-left: 0.1rem;
     }

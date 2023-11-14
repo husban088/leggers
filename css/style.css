@@ -1685,29 +1685,25 @@ html {
    border-radius: 10px;
 }
 
+.sale__heading {
+  padding: 0.4rem 3rem;
+}
+
 @media only screen and (max-width: 600px) {
   .arl__heading {
     font-size: 3.5rem;
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .arl__heading {
-    padding: 3.5rem;
-  }
-
-  .sale__heading {
-    padding: 2rem;
-  }
-}
-
 @media only screen and (max-width: 400px) {
   .arl__heading {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
   }
 
   .sale__heading {
-    font-size: 4.3rem !important;
+    font-size: 3.2rem !important;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
   }
 }
 

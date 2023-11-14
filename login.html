@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POWER</title>
+
+    <link rel="stylesheet" href="css/login.css">
+
+    <script src="https://kit.fontawesome.com/dee3a677e8.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/png" href="images/icon.png">
+
+</head>
+<body>
+
+    <!-- ======================== NAVIGATION SECTION =========================== -->
+
+    <div class="navigation">
+        <div class="navbar">
+            <div class="navbar__content">
+                <ul class="navbar__ul">
+                    <li class="navbar__list"><a href="index.html" class="navbar__link">Home</a></li>
+                    <li class="navbar__list"><a href="mens.html" class="navbar__link">Mens</a></li>
+                    <li class="navbar__list"><a href="women.html" class="navbar__link">Women</a></li>
+                    <li class="navbar__list"><a href="contactus.html" class="navbar__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="navbar__logo">
+                <a href="index.html" class="navbar__logos"><img src="images/icon.png" alt="icon" class="nav__img"></a>
+            </div>
+
+            <div class="navbar__links">
+                <a href="login.html" class="user__link"><i class="fa-regular fa-user navbar__social"></i></a>
+                <a href="#cart__ship" class="navbar__cart"><i class="fa-solid fa-cart-shopping navbar__social"></i></a>
+                <i class="fa-solid fa-magnifying-glass navbar__search"></i>
+                <input type="text" class="navbar__input" placeholder="Search">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ============================== NAVBAR BARS ===================================== -->
+
+        <div class="navbar__bars">
+           <a href="#navbar__navbars" class="navbar__bars-link"><i class="fa-solid fa-bars navbar__bar"></i></a>
+            <i class="fa-solid fa-magnifying-glass navbar__bar"></i>
+        </div>
+
+           <!-- ============================== NAVBAR CART ===================================== -->
+
+         <section class="navbar__popup">
+            <div class="navbar__carts" id="navbar__navbars">
+
+                <div class="navbar__close">
+                    <a href="index.html" class="home__text-link">LEGGERS</a>
+                    <a href="#" class="navbar__close-link"><i class="fa-solid fa-xmark navbar__close-icon"></i></a>
+                </div>
+
+                <div class="navbar__home">
+                    <a href="index.html" class="navbar__home-link"><p class="navbar__home-text">HOME</p>  <i class="fa-solid fa-chevron-right home__mens-icon"></i></a>
+                </div>
+
+                <div class="navbar__home navbar__mens">
+                    <a href="mens.html" class="navbar__home-link"><p class="navbar__home-text">MENS</p>  <i class="fa-solid fa-chevron-right home__mens-icon"></i></a>
+                </div>
+
+                <div class="navbar__home">
+                    <a href="women.html" class="navbar__home-link"><p class="navbar__home-text">WOMEN</p>  <i class="fa-solid fa-chevron-right home__mens-icon"></i></a>
+                </div>
+
+                <div class="navbar__contact">
+                    <a href="contactus.html" class="navbar__contact-link"><i class="fa-solid fa-phone navbar__contact-icon"></i> CONTACT US</a>
+                </div>
+
+                <div class="navbar__contact navbar__login">
+                    <a href="contactus.html" class="navbar__contact-link"><i class="fa-regular fa-user navbar__contact-icon"></i> CUSTOMER LOGIN</a>
+                </div>
+
+            </div>
+         </section>
+
+    <!-- ===================== CONTACT SECTION ========================= -->
+
+    <section class="contact__section">
+
+        <div class="contact__top">
+            <p class="contact__heading">CUSTOMER LOGIN</p>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="contact__image">
+                    <img src="images/loginimg.webp" alt="contactimg" class="contact__img">
+                </div>
+            </div>
+            <div class="col-1-of-2">
+
+                <div class="contact__con">
+
+                  <form action="signup.html" class="contact__form">
+
+                    <div class="mail__group mail__group-one">
+                        <input type="email" class="mail__input" id="email" placeholder="Name" required>
+                        <label for="email" class="mail__label">Email</label>
+                    </div>
+
+                    <div class="mail__group email__group">
+                        <input type="password" class="mail__input" id="email" placeholder="Email" required>
+                        <label for="email" class="mail__label">Password</label>
+                    </div>
+
+                <div class="login__cont">
+
+                    <div class="contact__button">
+                        <button class="contact__btn">LOGIN</button>
+                    </div>
+
+                    <div class="login__icons">
+                        <p class="login__text">Or Login with</p>
+
+                        <div class="login__social">
+                            <i class="fa-brands fa-facebook-f login__social-icon login__fb"></i>
+                            <i class="fa-brands fa-google login__social-icon login__ggle"></i>
+                            <i class="fa-brands fa-twitter login__social-icon login__twt"></i>
+                            <i class="fa-brands fa-linkedin-in login__social-icon login__lnk"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                  </form>
+
+                  <div class="create__con">
+                    <p class="create__text">Forget Your Password?</p>
+
+                    <div class="create__button">
+                        <a href="signup.html" class="contact__btn create__btn">CREATE MY ACCOUNT</a>
+                    </div>
+                  </div>
+
+                </div>
+
+            </div>
+        </div>
+       </section>
+
+    <!-- ======================== FOOTER SECTION =========================== -->
+
+    <div class="footer">
+
+        <div class="row">
+          <div class="footer__links">
+
+            <div class="col-1-of-4">
+                <div class="leggers legger">
+                    <p class="leggers__text legger__text"><span class="legger__span">LEGGERS</span> <span class="leggers__add">+</span></p>
+                    <p class="leggers__ship">LEGGERS Shipping Center Near Punjab Bank Raiwind Lahore.</p>
+                    <p class="leggers__call">Call: 0322 1010982</p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <div class="support leggers">
+                    <p class="support__text leggers__text"><span class="legger__span">SUPPORT</span> <span class="leggers__add">+</span></p>
+                    <ul class="support__ul">
+                        <li class="support__list"><a href="#" class="support__link">Contact Us</a></li>
+                        <li class="support__list"><a href="#" class="support__link">FAQ</a></li>
+                        <li class="support__list"><a href="#" class="support__link">Return Policy</a></li>
+                        <li class="support__list"><a href="#" class="support__link">Exchange Policy</a></li>
+                        <li class="support__list"><a href="#" class="support__link">Shipping Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <div class="support leggers about">
+                    <p class="support__text leggers__text"><span class="legger__span">ABOUT</span> <span class="leggers__add about__add">+</span></p>
+                    <ul class="support__ul">
+                        <li class="support__list"><a href="#" class="support__link">Search</a></li>
+                        <li class="support__list"><a href="#" class="support__link">About</a></li>
+                        <li class="support__list"><a href="#" class="support__link">Contact</a></li>
+                        <li class="support__list"><a href="#" class="support__link">Privavy Policy</a></li>
+                        <li class="support__list"><a href="#" class="support__link">Terms Of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <div class="support account__cont leggers">
+                    <p class="support__text leggers__text"><span class="legger__span">ACCOUNT</span> <span class="leggers__add acc__add">+</span></p>
+                    <ul class="support__ul">
+                        <li class="support__list"><a href="#" class="support__link">Login</a></li>
+                        <li class="support__list"><a href="#" class="support__link">Register</a></li>
+                        <li class="support__list"><a href="#" class="support__link">Order</a></li>
+                        <li class="support__list"><a href="#" class="support__link">Wishlist</a></li>
+                    </ul>
+                </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="email__content">
+            <div class="row">
+          
+                <div class="footer__inputs">
+
+                    <div class="col-1-of-2">
+
+                        <div class="email">
+                            <p class="email__text">SIGN UP FOR OUR NEWSLETTER</p>
+                            <input type="text" class="email__input" placeholder="Email address">
+                            <i class="fa-solid fa-chevron-right email__icon"></i>
+                            
+                          <div class="email__socialss">
+
+                            <i class="fa-brands fa-facebook-f email__social email__fb"></i>
+                            <i class="fa-brands fa-instagram email__social email__insta"></i>
+                            <i class="fa-brands fa-pinterest-p email__social email__pin"></i>
+
+                          </div>
+                        </div>
+    
+                    </div>
+    
+                    <div class="col-1-of-2">
+                        <div class="footer__last">
+                            <p class="footer__last-text">© 2022 LEGGERS. All Rights Reserved.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ========================= WHATSAPP SECTION ============================ -->
+
+    <div class="whatsapp__content">
+
+        <div class="what__con">
+            <a href="contactus.html" class="what__link"><span class="what__span">Chat with us</span> <i class="fa-brands fa-whatsapp what__icon"></i></a>
+         </div>
+
+    </div>
+
+    
+</body>
+</html>
